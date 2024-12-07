@@ -23,7 +23,7 @@ with st.sidebar:
 with st.container(border=True):
     st.header("Para o(a) mais especial.", divider="red")
     st.subheader("Play na nossa musiquinha?")
-    st.audio("Justin Bieber - Anyone (Official Live Performance).mp3", format="audio/mpeg", loop=True)
+    st.audio("meu amor.mp3.mpeg", format="audio/mpeg", loop=True)
     st.header("Encontre a surpresa:", divider="red")
 
     col1, col2, col3, col4, col5 = st.columns(5)
