@@ -4,20 +4,20 @@ import streamlit as st
 @st.dialog("<3")
 def caixa_modal(texto):
     st.write(texto)
-@st.dialog("Quer namorar comigo?")
+@st.dialog("Quer casar comigo?")
 def pedido_namoro():
     if st.button("Sim", use_container_width= True):
-        st.write('Te amo, vida')
+        st.write('Te amo, amor')
 # Using "with" notation
 with st.sidebar:
     # Fotos de vocês dois aqui <3
-    st.image("https://i.pinimg.com/736x/04/32/b0/0432b0e1b6645072a471234b66b12530.jpg",
+    st.image("https://photos.fife.usercontent.google.com/pw/AP1GczM-7y074s9jBxvsCBUuP0nxpfmyR-xqwZSsaEeV9Mf9rvX61VyRxlIMzA=w696-h928-s-no-gm?authuser=0",
              caption="O dia que nos conhecemos.")
-    st.image("https://i.pinimg.com/736x/f9/09/f4/f909f41ee03acae0a10c9616976237bb.jpg",
+    st.image("https://photos.fife.usercontent.google.com/pw/AP1GczMW27IdTUrLMvYpZr_68XiSO0ur__f1Og1fohyOX8NlRTaDq3gUBuObvw=w308-h232-no?authuser=0",
              caption="Nosso primeiro porre.")
-    st.image("https://i.pinimg.com/736x/2c/e8/ce/2ce8ce80e30b3711b595081ee7b9a7de.jpg",
+    st.image("https://photos.fife.usercontent.google.com/pw/AP1GczNeTcDOdNPi_rxBcOX_gnUXbqv66olE8p6lHWvQUc3xCJFpZ1sNYyn7Hw=w696-h928-s-no-gm?authuser=0",
              caption="A gata.")
-    st.image("https://i.pinimg.com/736x/a5/2a/d4/a52ad46c3bc13c25563c3fc34d533295.jpg",
+    st.image("https://photos.fife.usercontent.google.com/pw/AP1GczNDy_TooCb7qAb8VjCNdWqBJkvuJ8ibWgR31nEB4IHcbnhWMg-yLbYKvA=w696-h928-s-no-gm?authuser=0",
              caption="Levando meu mundo nas costas.")
     st.image("https://i.pinimg.com/736x/40/5e/ee/405eee6b20478b5cc7e4c1f6b747cb28.jpg")
 with st.container(border=True):
